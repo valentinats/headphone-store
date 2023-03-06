@@ -1,0 +1,388 @@
+html, body {
+  width: 1400px;
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #ff25c2;
+  color: #ff25c2;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+  box-shadow: inset 200px 0 0 0 #ff25c2;
+  color: white;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.menu-nav {
+  margin: 44px auto 60px;
+  text-align: center;
+}
+
+.menu-nav li {
+  margin: 0 21px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu-nav a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.main h1 {
+  margin: 0 auto 20px;
+  width: 919px;
+  height: 156px;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 133px;
+  color: #ff25c2;
+  text-align: center;
+  letter-spacing: -0.07em;
+}
+
+.main-text {
+  margin: 0 auto;
+  color: white;
+  width: 430px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-big-img {
+  display: block;
+  margin: 0 auto 70px;
+  width: 819px;
+}
+
+.models {
+  margin: 0 auto;
+  padding: 0 125px 150px;
+  box-sizing: border-box;
+}
+
+.models-items {
+  padding-bottom: 80px;
+}
+
+.models-item-white {
+  margin: 0 auto;
+  width: 1150px;
+  height: 644px;
+  background-image: url(../images/ear-white-headphones.png);
+  background-repeat: no-repeat;
+  padding: 50px 0 51px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.models-title {
+  color: white;
+  margin-bottom: 149px;
+  width: 375px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -0.05em;
+}
+
+.models-mini-img {
+  margin-bottom: 30px;
+  display: block;
+  width: 142px;
+}
+
+.models-btn {
+  width: 420px;
+  height: 110px;
+  background-color: transparent;
+  display: block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.models-btn:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 #ff25c2;
+}
+
+.models-btn:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 #ff25c2;
+}
+
+.models-item-black {
+  margin: 0 auto;
+  width: 1150px;
+  height: 644px;
+  background-image: url(../images/ear-black-headphones.png);
+  background-repeat: no-repeat;
+  padding: 50px 0 51px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.functions {
+  padding-bottom: 150px;
+}
+
+.functions-img {
+  background-image: url("../images/male-model.png");
+  background-repeat: no-repeat;
+  width: 1401px;
+  height: 786px;
+  margin: 0 auto;
+}
+
+.functions-title {
+  padding-top: 190px;
+  margin: 0 auto 39px;
+  width: 560px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  text-align: center;
+  color: #ff25c2;
+}
+
+.functions-text {
+  margin: 0 auto 39px;
+  width: 671px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+.workouts {
+  width: 100%;
+  padding: 0 0 150px;
+  box-sizing: border-box;
+}
+
+.workouts h2 {
+  margin: 0 auto 80px;
+  width: 676px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ff25c2;
+}
+
+.workouts-items {
+  width: 507px;
+  margin: 0 auto;
+}
+
+.workouts-item {
+  margin: 0 auto 80px;
+}
+
+.workouts-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  width: 54px;
+  height: 54px;
+  background: #ff25c2;
+  border-radius: 100px;
+}
+
+.workouts-text {
+  width: 507px;
+  height: 120px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: white;
+}
+
+.microphones {
+  background-image: url(../images/fem-model.png);
+  background-repeat: no-repeat;
+  padding: 130px 0 130px;
+  box-sizing: border-box;
+  width: 1401px;
+  height: 1040px;
+}
+
+.microphones h2 {
+  margin: 0 auto 40px;
+  width: 1150px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  letter-spacing: -0.06em;
+}
+
+.microphones-text {
+  margin: 0 auto 60px;
+  width: 942px;
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 40.5px;
+  text-align: center;
+  letter-spacing: -0.06em;
+}
+
+.microphones-btn {
+  margin: 0 auto;
+  width: 866px;
+  display: block;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 110px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.microphones-btn:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 #ff25c2;
+}
+
+.microphones-btn:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 #ff25c2;
+}
+
+.social {
+  padding: 150px 0 200px 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.social h2 {
+  margin: 0 auto 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.06em;
+}
+
+.social-wrapper {
+  position: relative;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.social-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.social-text {
+  position: absolute;
+  bottom: 50px;
+  width: 475px;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%);
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+
+.social-nav {
+  margin: 60px auto 0;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0 196px;
+  display: flex;
+}
+
+.social-nav li {
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.social-nav a {
+  display: block;
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: -0.06em;
+}
+
+.footer-nav {
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.footer-nav li {
+  margin: 0 21px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-nav a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-text {
+  padding-bottom: 52px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: -0.03em;
+  color: #ff25c2;
+}
