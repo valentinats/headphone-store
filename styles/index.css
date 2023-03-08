@@ -186,7 +186,7 @@ a:hover {
 
 .workouts {
   width: 100%;
-  padding: 0 0 150px;
+  padding: 0 0 70px;
   box-sizing: border-box;
 }
 
@@ -223,7 +223,6 @@ a:hover {
 
 .workouts-text {
   width: 507px;
-  height: 120px;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
