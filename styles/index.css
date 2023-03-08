@@ -81,7 +81,7 @@ a:hover {
   box-sizing: border-box;
 }
 
-.models-items {
+.models-items:first-child {
   padding-bottom: 80px;
 }
 
