@@ -1,5 +1,5 @@
 html, body {
-  width: 1400px;
+  min-width: 1400px;
   height: 100%;
   font-family: "Manrope", sans-serif;
   font-style: normal;
@@ -31,11 +31,13 @@ a:hover {
 .menu-nav {
   margin: 44px auto 60px;
   text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
 }
 
 .menu-nav li {
-  margin: 0 21px;
-  padding: 0;
+  margin: 0 22px;
   display: inline-block;
   text-align: center;
 }
@@ -43,14 +45,21 @@ a:hover {
 .menu-nav a {
   display: block;
   color: white;
-  font-size: 18px;
   text-decoration: none;
 }
 
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+  
 .main h1 {
-  margin: 0 auto 20px;
+  padding: 8px 10px 0 5px;
+  margin: 0 auto 90px;
   width: 919px;
   height: 156px;
+  font-family: 'Inter';
+  font-style: normal;
   font-size: 150px;
   font-weight: 700;
   line-height: 133px;
@@ -60,13 +69,18 @@ a:hover {
 }
 
 .main-text {
-  margin: 0 auto;
-  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  top: 310px;
+  position: absolute;
+  left: 616px;
   width: 430px;
+  text-align: center;
+  font-weight: 400;
   font-size: 25px;
   line-height: 30px;
-  font-weight: 400;
-  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
 }
 
 .main-big-img {
@@ -101,6 +115,8 @@ a:hover {
   color: white;
   margin-bottom: 149px;
   width: 375px;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 56px;
@@ -167,16 +183,21 @@ a:hover {
   padding-top: 190px;
   margin: 0 auto 39px;
   width: 560px;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 74px;
   text-align: center;
   color: #ff25c2;
+  letter-spacing: -0.06em;
 }
 
 .functions-text {
   margin: 0 auto 39px;
   width: 671px;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -193,6 +214,8 @@ a:hover {
 .workouts h2 {
   margin: 0 auto 80px;
   width: 676px;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 74px;
@@ -223,6 +246,8 @@ a:hover {
 
 .workouts-text {
   width: 507px;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -244,6 +269,8 @@ a:hover {
   margin: 0 auto 40px;
   width: 1150px;
   color: white;
+  font-family: 'Inter';
+  font-style: normal;
   text-align: center;
   font-weight: 700;
   font-size: 100px;
@@ -255,6 +282,8 @@ a:hover {
   margin: 0 auto 60px;
   width: 942px;
   color: white;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 45px;
   line-height: 40.5px;
@@ -265,6 +294,7 @@ a:hover {
 .microphones-btn {
   margin: 0 auto;
   width: 866px;
+  height: 107px;
   display: block;
   background-color: transparent;
   border: 1px solid #ffffff;
@@ -272,7 +302,6 @@ a:hover {
   text-decoration: none;
   font-weight: 400;
   font-size: 25px;
-  line-height: 110px;
   text-align: center;
   letter-spacing: -0.03em;
   color: white;
@@ -297,8 +326,11 @@ a:hover {
 }
 
 .social h2 {
-  margin: 0 auto 100px;
+  margin-left: -29px;
+  margin-bottom: 100px;
   color: white;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 74px;
@@ -320,23 +352,23 @@ a:hover {
 .social-text {
   position: absolute;
   bottom: 50px;
+  left: 317px;
   width: 475px;
-  margin: 0 auto;
-  left: 50%;
-  transform: translate(-50%);
-  display: block;
-  color: white;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
-  text-align: center;
   letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
 }
 
 .social-nav {
-  margin: 60px auto 0;
+  width: 934px;
+  margin: 44px auto 0;
   text-align: center;
-  justify-content: space-between;
+  justify-content: content;
   padding: 0 196px;
   display: flex;
 }
@@ -348,6 +380,10 @@ a:hover {
 }
 
 .social-nav a {
+  margin-right: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  width: 208px;
   display: block;
   color: white;
   font-size: 60px;
@@ -363,7 +399,7 @@ a:hover {
 }
 
 .footer-nav li {
-  margin: 0 21px;
+  margin-right: 43px;
   padding: 0;
   display: inline-block;
   text-align: center;
@@ -377,6 +413,7 @@ a:hover {
 }
 
 .footer-text {
+  margin: -5px;
   padding-bottom: 52px;
   text-align: center;
   font-weight: 700;
