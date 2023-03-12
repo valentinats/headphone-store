@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   min-width: 1400px;
   height: 100%;
   font-family: "Manrope", sans-serif;
@@ -9,16 +10,16 @@ html, body {
   scroll-behavior: smooth;
 }
 
-a {
+.menu-nav a, .footer-nav a {
   text-decoration: none;
   box-shadow: inset 0 0 0 0 #ff25c2;
   color: #ff25c2;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-a:hover {
+.menu-nav a:hover, .footer-nav a:hover {
   box-shadow: inset 200px 0 0 0 #ff25c2;
   color: white;
 }
@@ -48,17 +49,21 @@ a:hover {
   text-decoration: none;
 }
 
-.wrapper {
-  width: 1400px;
+.main {
+  width: 819px;
   margin: 0 auto;
 }
-  
+
+.main-description {
+  position: relative;
+  width: 100%;
+}
+
 .main h1 {
   padding: 8px 10px 0 5px;
   margin: 0 auto 90px;
-  width: 919px;
   height: 156px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-size: 150px;
   font-weight: 700;
@@ -68,12 +73,12 @@ a:hover {
   letter-spacing: -0.07em;
 }
 
-.main-text {
-  font-family: 'Inter';
+.main p {
+  bottom: 820px;
+  font-family: "Inter";
   font-style: normal;
-  top: 310px;
   position: absolute;
-  left: 546px;
+  left: 196px;
   width: 430px;
   text-align: center;
   font-weight: 400;
@@ -115,7 +120,7 @@ a:hover {
   color: white;
   margin-bottom: 149px;
   width: 375px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -174,16 +179,20 @@ a:hover {
 .functions-img {
   background-image: url("../images/male-model.png");
   background-repeat: no-repeat;
-  width: 1401px;
+  width: 100%;
   height: 786px;
   margin: 0 auto;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  position: relative;
 }
 
 .functions-title {
   padding-top: 190px;
   margin: 0 auto 39px;
   width: 560px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -196,7 +205,7 @@ a:hover {
 .functions-text {
   margin: 0 auto 39px;
   width: 671px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -214,7 +223,7 @@ a:hover {
 .workouts h2 {
   margin: 0 auto 80px;
   width: 676px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -246,7 +255,7 @@ a:hover {
 
 .workouts-text {
   width: 507px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -260,16 +269,20 @@ a:hover {
   background-image: url(../images/fem-model.png);
   background-repeat: no-repeat;
   padding: 130px 0 130px;
-  box-sizing: border-box;
-  width: 1401px;
-  height: 1040px;
+  height: 780px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  position: relative;
 }
 
 .microphones h2 {
   margin: 0 auto 40px;
   width: 1150px;
   color: white;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   text-align: center;
   font-weight: 700;
@@ -282,7 +295,7 @@ a:hover {
   margin: 0 auto 60px;
   width: 942px;
   color: white;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -320,16 +333,17 @@ a:hover {
 }
 
 .social {
+  margin: 0 auto;
   padding: 150px 0 200px 0;
-  box-sizing: border-box;
   width: 100%;
+  max-width: 1150px;
 }
 
 .social h2 {
-  margin-left: -29px;
+  width: 1150px;
   margin-bottom: 100px;
   color: white;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -354,7 +368,7 @@ a:hover {
   bottom: 50px;
   left: 317px;
   width: 475px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -365,12 +379,10 @@ a:hover {
 }
 
 .social-nav {
-  width: 934px;
+  max-width: 1150px;
   margin: 44px auto 0;
-  text-align: center;
-  justify-content: content;
-  padding: 0 196px;
   display: flex;
+  justify-content: center;
 }
 
 .social-nav li {
@@ -381,7 +393,7 @@ a:hover {
 
 .social-nav a {
   margin-right: 30px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   width: 208px;
   display: block;
@@ -413,7 +425,6 @@ a:hover {
 }
 
 .footer-text {
-  margin: -5px;
   padding-bottom: 52px;
   text-align: center;
   font-weight: 700;
