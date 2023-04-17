@@ -406,6 +406,10 @@ body {
   letter-spacing: -0.06em;
 }
 
+.social-nav a:hover {
+  color: #ff25c2;
+}
+
 .footer-nav {
   margin: 0 auto 48px;
   text-align: center;
